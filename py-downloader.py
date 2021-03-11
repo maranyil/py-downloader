@@ -4,6 +4,7 @@ import youtube_dl
 print("Insert your link: ")
 link = input("")
 
+#YouTube download options
 ydl_opts = {
     'format': 'bestaudio/best',
     'postprocessors': [{
